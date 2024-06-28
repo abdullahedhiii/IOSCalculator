@@ -1,0 +1,74 @@
+body{
+   background-color: rgb(120, 50, 50);
+}
+
+
+#heading{
+    margin-top: 10%;
+    text-indent: 30%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#Calculator {
+    border: 1px solid rgb(38, 36, 36);
+    height: 390px;
+    width: 220px; 
+    background-color: rgb(38, 36, 36);
+    margin: 15% auto; 
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+#calcArea {
+    height: 50px;
+    width: 180px; 
+    color: white;
+    font-size: 24px; 
+    text-align: right; 
+    padding: 10px;
+    margin-bottom: 10px; 
+    background-color: rgb(38, 36, 36);
+    border: none; 
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 21px;
+    height: 40px;
+    width: 40px; 
+    margin: 5px; 
+    font-size: 18px; 
+    color: white;
+    background-color: rgb(113, 106, 106);
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: rgb(90, 83, 83);
+}
+
+#clear, #negate, #modulus {
+    color: black; 
+    background-color: rgb(202, 199, 199);}
+
+#divide, #multiply, #minus, #add, #equals {
+    background-color: rgb(231, 158, 22); 
+    text-align: center; 
+}
+
+.numbers, #point, #zero {
+    background-color: rgb(113, 106, 106); 
+    padding: 10px;
+    text-align: center; 
+}
+
+#zero {
+    width: 92px; 
+    height: 40px; 
+    text-align: left; 
+    text-indent:6px;
+    padding: 0; 
+}
